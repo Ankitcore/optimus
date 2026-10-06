@@ -27,7 +27,20 @@ export function AnimatedSphere() {
     resize();
     window.addEventListener("resize", resize);
 
+    let isVisible = false;
+
+    const observer = new IntersectionObserver((entries) => {
+      isVisible = entries[0].isIntersecting;
+      if (isVisible) {
+        frameRef.current = requestAnimationFrame(render);
+      }
+    });
+
+    observer.observe(canvas);
+
     const render = () => {
+      if (!isVisible) return;
+      
       const rect = canvas.getBoundingClientRect();
       ctx.clearRect(0, 0, rect.width, rect.height);
 
@@ -39,12 +52,11 @@ export function AnimatedSphere() {
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
 
-      const step = 12;
       const points: { x: number; y: number; z: number; char: string }[] = [];
 
-      // Generate sphere points
-      for (let phi = 0; phi < Math.PI * 2; phi += 0.15) {
-        for (let theta = 0; theta < Math.PI; theta += 0.15) {
+      // Generate sphere points (reduced density for performance)
+      for (let phi = 0; phi < Math.PI * 2; phi += 0.2) {
+        for (let theta = 0; theta < Math.PI; theta += 0.2) {
           const x = Math.sin(theta) * Math.cos(phi + time * 0.5);
           const y = Math.sin(theta) * Math.sin(phi + time * 0.5);
           const z = Math.cos(theta);
@@ -77,7 +89,7 @@ export function AnimatedSphere() {
       // Draw points
       points.forEach((point) => {
         const alpha = 0.2 + (point.z + 1) * 0.4;
-        ctx.fillStyle = `rgba(0, 0, 0, ${alpha})`;
+        ctx.fillStyle = `rgba(0, 0, 0, ${alpha.toFixed(2)})`;
         ctx.fillText(point.char, point.x, point.y);
       });
 
@@ -85,10 +97,9 @@ export function AnimatedSphere() {
       frameRef.current = requestAnimationFrame(render);
     };
 
-    render();
-
     return () => {
       window.removeEventListener("resize", resize);
+      observer.disconnect();
       cancelAnimationFrame(frameRef.current);
     };
   }, []);
