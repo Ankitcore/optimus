@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Privacy Policy | Optimus",
-  description: "Privacy Policy for Optimus.",
+  title: "Privacy Policy | kshivam07",
+  description: "Privacy Policy for kshivam07.",
 }
 
 export default function PrivacyPage() {
@@ -47,12 +47,12 @@ export default function PrivacyPage() {
 
         <h2>5. Your rights</h2>
         <p>
-          Depending on your location, you may have rights to access, correct, or delete your personal information. You can manage your profile information directly from your Optimus dashboard.
+          Depending on your location, you may have rights to access, correct, or delete your personal information. You can manage your profile information directly from your kshivam07 dashboard.
         </p>
 
         <h2>6. Contact us</h2>
         <p>
-          If you have questions about this Privacy Policy, please contact us at privacy@optimus.example.com or via our <a href="/contact">Contact page</a>.
+          If you have questions about this Privacy Policy, please contact us at privacy@kshivam07.example.com or via our <a href="/contact">Contact page</a>.
         </p>
       </div>
     </div>

@@ -3,8 +3,8 @@ import Link from "next/link"
 import { BookOpen, Code, Terminal, Zap } from "lucide-react"
 
 export const metadata = {
-  title: "Documentation | Optimus",
-  description: "Learn how to build, deploy, and scale with Optimus.",
+  title: "Documentation | kshivam07",
+  description: "Learn how to build, deploy, and scale with kshivam07.",
 }
 
 export default function DocsPage() {
@@ -12,7 +12,7 @@ export default function DocsPage() {
     {
       icon: <Terminal className="w-6 h-6 text-primary" />,
       title: "Getting Started",
-      description: "Learn the basics of Optimus, from creating your account to your first deployment.",
+      description: "Learn the basics of kshivam07, from creating your account to your first deployment.",
       links: [
         { name: "Quickstart Guide", href: "/docs/quickstart" },
         { name: "Project Architecture", href: "/docs/architecture" },
@@ -56,7 +56,7 @@ export default function DocsPage() {
       <div className="mb-12">
         <h1 className="text-4xl md:text-5xl font-display font-bold tracking-tight mb-4">Documentation</h1>
         <p className="text-xl text-muted-foreground max-w-2xl">
-          Everything you need to know about building with Optimus.
+          Everything you need to know about building with kshivam07.
         </p>
       </div>
 

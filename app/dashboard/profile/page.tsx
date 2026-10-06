@@ -54,7 +54,7 @@ export default function ProfilePage() {
     <div className="min-h-screen bg-background">
       <header className="border-b">
         <div className="flex h-16 items-center px-4 md:px-6">
-          <div className="font-display text-xl mr-auto">Optimus Settings</div>
+          <div className="font-display text-xl mr-auto">kshivam07 Settings</div>
           <Button variant="outline" asChild>
             <Link href="/dashboard">Back to Dashboard</Link>
           </Button>

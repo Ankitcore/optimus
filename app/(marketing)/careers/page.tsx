@@ -1,13 +1,13 @@
 export const metadata = {
-  title: "Careers | Optimus",
-  description: "Join the Optimus team and help us build the future of software development.",
+  title: "Careers | kshivam07",
+  description: "Join the kshivam07 team and help us build the future of software development.",
 }
 
 export default function CareersPage() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12">
       <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-display font-bold tracking-tight mb-6">Careers at Optimus</h1>
+        <h1 className="text-4xl md:text-5xl font-display font-bold tracking-tight mb-6">Careers at kshivam07</h1>
         <p className="text-xl text-muted-foreground">
           Help us build the platform for teams who ship.
         </p>

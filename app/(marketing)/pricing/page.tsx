@@ -3,7 +3,7 @@ import Link from "next/link"
 import { Check } from "lucide-react"
 
 export const metadata = {
-  title: "Pricing | Optimus",
+  title: "Pricing | kshivam07",
   description: "Simple, transparent pricing for teams of all sizes.",
 }
 
@@ -61,7 +61,7 @@ export default function PricingPage() {
       <div className="text-center max-w-3xl mx-auto mb-16">
         <h1 className="text-4xl md:text-5xl font-display font-bold tracking-tight mb-6">Simple, transparent pricing</h1>
         <p className="text-xl text-muted-foreground">
-          Note: This is placeholder pricing. Optimus is currently free and open-source while in early development.
+          Note: This is placeholder pricing. kshivam07 is currently free and open-source while in early development.
         </p>
       </div>
 

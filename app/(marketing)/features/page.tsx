@@ -3,8 +3,8 @@ import Link from "next/link"
 import { CheckCircle2, Zap, Shield, Globe, Workflow, Layers } from "lucide-react"
 
 export const metadata = {
-  title: "Optimus — Powerful Tools for Teams Who Ship",
-  description: "Explore the core features of Optimus including seamless deployments, integrated authentication, and secure database management.",
+  title: "kshivam07 — Powerful Tools for Teams Who Ship",
+  description: "Explore the core features of kshivam07 including seamless deployments, integrated authentication, and secure database management.",
 }
 
 export default function FeaturesPage() {
@@ -46,7 +46,7 @@ export default function FeaturesPage() {
       <div className="text-center max-w-3xl mx-auto mb-16">
         <h1 className="text-4xl md:text-5xl font-display font-bold tracking-tight mb-6">Everything you need to ship faster</h1>
         <p className="text-xl text-muted-foreground">
-          Optimus provides a complete, production-ready full-stack architecture so you can focus on building your product, not your infrastructure.
+          kshivam07 provides a complete, production-ready full-stack architecture so you can focus on building your product, not your infrastructure.
         </p>
       </div>
 
@@ -64,7 +64,7 @@ export default function FeaturesPage() {
 
       <div className="bg-primary/5 border rounded-3xl p-12 text-center max-w-4xl mx-auto">
         <h2 className="text-3xl font-display font-bold mb-4">Ready to start building?</h2>
-        <p className="text-muted-foreground mb-8 max-w-xl mx-auto">Join thousands of developers shipping faster with Optimus.</p>
+        <p className="text-muted-foreground mb-8 max-w-xl mx-auto">Join thousands of developers shipping faster with kshivam07.</p>
         <Button size="lg" asChild className="rounded-full px-8">
           <Link href="/register">Get Started Free</Link>
         </Button>

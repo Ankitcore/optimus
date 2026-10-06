@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 export const metadata = {
-  title: "How It Works | Optimus",
-  description: "Learn how the Optimus platform helps you build, deploy, and scale your applications.",
+  title: "How It Works | kshivam07",
+  description: "Learn how the kshivam07 platform helps you build, deploy, and scale your applications.",
 }
 
 export default function HowItWorksPage() {
@@ -16,7 +16,7 @@ export default function HowItWorksPage() {
     {
       number: "02",
       title: "Set up your project",
-      description: "Optimus automatically provisions your PostgreSQL database and configures your Prisma schema for immediate development."
+      description: "kshivam07 automatically provisions your PostgreSQL database and configures your Prisma schema for immediate development."
     },
     {
       number: "03",

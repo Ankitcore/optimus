@@ -3,8 +3,8 @@ import Link from "next/link"
 import { Code2 } from "lucide-react"
 
 export const metadata = {
-  title: "SDK | Optimus",
-  description: "Optimus Software Development Kits.",
+  title: "SDK | kshivam07",
+  description: "kshivam07 Software Development Kits.",
 }
 
 export default function SDKPage() {
@@ -15,7 +15,7 @@ export default function SDKPage() {
       </div>
       <h1 className="text-4xl md:text-5xl font-display font-bold tracking-tight mb-6">SDK — Coming Soon</h1>
       <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-        We are currently developing official SDKs for TypeScript, Python, and Go to make interacting with the Optimus API even easier. 
+        We are currently developing official SDKs for TypeScript, Python, and Go to make interacting with the kshivam07 API even easier. 
         In the meantime, you can interact directly with our REST APIs.
       </p>
       

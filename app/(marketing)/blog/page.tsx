@@ -1,8 +1,8 @@
 import { FileText } from "lucide-react"
 
 export const metadata = {
-  title: "Blog | Optimus",
-  description: "News, updates, and engineering posts from the Optimus team.",
+  title: "Blog | kshivam07",
+  description: "News, updates, and engineering posts from the kshivam07 team.",
 }
 
 export default function BlogPage() {

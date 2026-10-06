@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Terms of Service | Optimus",
-  description: "Terms of Service for Optimus.",
+  title: "Terms of Service | kshivam07",
+  description: "Terms of Service for kshivam07.",
 }
 
 export default function TermsPage() {
@@ -18,7 +18,7 @@ export default function TermsPage() {
 
         <h2>1. Acceptance of Terms</h2>
         <p>
-          By creating an account and accessing Optimus, you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access the service.
+          By creating an account and accessing kshivam07, you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access the service.
         </p>
 
         <h2>2. Account Responsibilities</h2>
@@ -38,12 +38,12 @@ export default function TermsPage() {
 
         <h2>5. Intellectual Property</h2>
         <p>
-          The service and its original content, features, and functionality are and will remain the exclusive property of Optimus and its licensors.
+          The service and its original content, features, and functionality are and will remain the exclusive property of kshivam07 and its licensors.
         </p>
 
         <h2>6. Limitation of Liability</h2>
         <p>
-          In no event shall Optimus, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages resulting from your use of the service.
+          In no event shall kshivam07, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages resulting from your use of the service.
         </p>
 
         <h2>7. Changes</h2>

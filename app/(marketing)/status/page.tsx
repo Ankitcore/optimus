@@ -1,8 +1,8 @@
 import { CheckCircle2 } from "lucide-react"
 
 export const metadata = {
-  title: "System Status | Optimus",
-  description: "Current status of Optimus systems and infrastructure.",
+  title: "System Status | kshivam07",
+  description: "Current status of kshivam07 systems and infrastructure.",
 }
 
 export default function StatusPage() {

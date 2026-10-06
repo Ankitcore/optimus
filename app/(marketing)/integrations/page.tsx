@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 export const metadata = {
-  title: "Integrations | Optimus",
-  description: "Connect Optimus with the tools you already use.",
+  title: "Integrations | kshivam07",
+  description: "Connect kshivam07 with the tools you already use.",
 }
 
 export default function IntegrationsPage() {
@@ -51,7 +51,7 @@ export default function IntegrationsPage() {
       <div className="text-center max-w-3xl mx-auto mb-16">
         <h1 className="text-4xl md:text-5xl font-display font-bold tracking-tight mb-6">Integrations</h1>
         <p className="text-xl text-muted-foreground">
-          Optimus connects seamlessly with the best tools in the modern web ecosystem.
+          kshivam07 connects seamlessly with the best tools in the modern web ecosystem.
         </p>
       </div>
 

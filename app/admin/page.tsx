@@ -23,7 +23,7 @@ export default async function AdminPage() {
     <div className="min-h-screen bg-background">
       <header className="border-b">
         <div className="flex h-16 items-center px-4 md:px-6">
-          <div className="font-display text-xl mr-auto text-primary">Optimus Admin</div>
+          <div className="font-display text-xl mr-auto text-primary">kshivam07 Admin</div>
           <div className="flex items-center gap-4">
             <Button variant="outline" asChild>
               <Link href="/dashboard">Back to Dashboard</Link>

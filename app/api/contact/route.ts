@@ -23,7 +23,7 @@ export async function POST(req: Request) {
     }
 
     // Here you would typically send an email using Resend or insert into the database.
-    // e.g. await sendEmail({ to: "support@optimus.com", subject: validatedData.data.subject, text: validatedData.data.message })
+    // e.g. await sendEmail({ to: "support@kshivam07.com", subject: validatedData.data.subject, text: validatedData.data.message })
     
     // Simulating API delay
     await new Promise(resolve => setTimeout(resolve, 1000))

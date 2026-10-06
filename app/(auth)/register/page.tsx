@@ -52,7 +52,7 @@ export default function RegisterPage() {
       <div className="w-full max-w-md p-8 space-y-6 bg-card border border-foreground/10 rounded-2xl shadow-lg">
         <div className="space-y-2 text-center">
           <h1 className="text-3xl font-bold tracking-tight">Create an account</h1>
-          <p className="text-muted-foreground">Enter your details to get started with Optimus</p>
+          <p className="text-muted-foreground">Enter your details to get started with kshivam07</p>
         </div>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="space-y-2">

@@ -1,8 +1,8 @@
 import { Badge } from "@/components/ui/badge"
 
 export const metadata = {
-  title: "API Reference | Optimus",
-  description: "Complete REST API reference for Optimus endpoints.",
+  title: "API Reference | kshivam07",
+  description: "Complete REST API reference for kshivam07 endpoints.",
 }
 
 export default function ApiReferencePage() {
@@ -46,7 +46,7 @@ export default function ApiReferencePage() {
       <div className="mb-12">
         <h1 className="text-4xl md:text-5xl font-display font-bold tracking-tight mb-4">API Reference</h1>
         <p className="text-xl text-muted-foreground">
-          Detailed documentation for the Optimus REST API endpoints.
+          Detailed documentation for the kshivam07 REST API endpoints.
         </p>
       </div>
 

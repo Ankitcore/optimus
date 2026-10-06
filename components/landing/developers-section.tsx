@@ -6,23 +6,23 @@ import { Copy, Check } from "lucide-react";
 const codeExamples = [
   {
     label: "Install",
-    code: `npm install @optimus/sdk
+    code: `npm install @kshivam07/sdk
 
 # or
-yarn add @optimus/sdk
-pnpm add @optimus/sdk`,
+yarn add @kshivam07/sdk
+pnpm add @kshivam07/sdk`,
   },
   {
     label: "Initialize",
-    code: `import { Optimus } from '@optimus/sdk'
+    code: `import { kshivam07 } from '@kshivam07/sdk'
 
-const optimus = new Optimus({
-  apiKey: process.env.OPTIMUS_KEY
+const kshivam07 = new kshivam07({
+  apiKey: process.env.KSHIVAM07_KEY
 })`,
   },
   {
     label: "Deploy",
-    code: `const app = await optimus.deploy({
+    code: `const app = await kshivam07.deploy({
   name: 'my-app',
   region: 'auto',
   scaling: {
@@ -223,7 +223,7 @@ export function DevelopersSection() {
                 Read the docs
               </a>
               <span className="text-foreground/20">|</span>
-              <a href="https://github.com/Ankitcore/optimus" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">
+              <a href="https://github.com/Ankitcore/kshivam07" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">
                 View on GitHub
               </a>
             </div>

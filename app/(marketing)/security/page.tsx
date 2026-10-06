@@ -1,8 +1,8 @@
 import { Shield, Key, Lock, Server } from "lucide-react"
 
 export const metadata = {
-  title: "Security | Optimus",
-  description: "Security practices and infrastructure at Optimus.",
+  title: "Security | kshivam07",
+  description: "Security practices and infrastructure at kshivam07.",
 }
 
 export default function SecurityPage() {
@@ -53,11 +53,11 @@ export default function SecurityPage() {
       <div className="p-8 bg-muted/30 border rounded-3xl text-center">
         <h3 className="text-xl font-semibold mb-2">Reporting a Vulnerability</h3>
         <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-          If you believe you have found a security vulnerability in Optimus, please do not disclose it publicly. 
+          If you believe you have found a security vulnerability in kshivam07, please do not disclose it publicly. 
           Contact us immediately so we can investigate and patch the issue.
         </p>
         <a href="/contact" className="text-primary font-medium hover:underline">
-          security@optimus.example.com
+          security@kshivam07.example.com
         </a>
       </div>
     </div>

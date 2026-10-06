@@ -1,13 +1,13 @@
 export const metadata = {
-  title: "About Us | Optimus",
-  description: "Learn about the mission and vision behind Optimus.",
+  title: "About Us | kshivam07",
+  description: "Learn about the mission and vision behind kshivam07.",
 }
 
 export default function AboutPage() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12">
       <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-display font-bold tracking-tight mb-6">About Optimus</h1>
+        <h1 className="text-4xl md:text-5xl font-display font-bold tracking-tight mb-6">About kshivam07</h1>
         <p className="text-xl text-muted-foreground">
           The platform for teams who ship.
         </p>
@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div className="p-8 bg-card border rounded-3xl mb-12">
           <h2 className="text-2xl font-semibold mb-4 mt-0">Our Mission</h2>
           <p className="text-muted-foreground leading-relaxed mb-0">
-            Optimus was built to solve a single problem: the friction between writing code and shipping it to users. 
+            kshivam07 was built to solve a single problem: the friction between writing code and shipping it to users. 
             We believe developers should spend their time solving business problems, not configuring infrastructure, 
             wiring up authentication, or wrestling with databases.
           </p>

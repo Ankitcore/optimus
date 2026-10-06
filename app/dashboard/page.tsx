@@ -14,7 +14,7 @@ export default async function DashboardPage() {
     <div className="min-h-screen bg-background">
       <header className="border-b">
         <div className="flex h-16 items-center px-4 md:px-6">
-          <div className="font-display text-xl mr-auto">Optimus Dashboard</div>
+          <div className="font-display text-xl mr-auto">kshivam07 Dashboard</div>
           <div className="flex items-center gap-4">
             <span className="text-sm text-muted-foreground">{session.user.email}</span>
             <Button variant="outline" asChild>
